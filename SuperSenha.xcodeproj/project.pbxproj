@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00422BC120293113004938FA /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00422BC020293113004938FA /* PasswordsViewController.swift */; };
+		00422BC320293264004938FA /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00422BC220293264004938FA /* SecurityTipsViewController.swift */; };
+		00422BC5202932F6004938FA /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00422BC4202932F6004938FA /* PasswordGenerator.swift */; };
 		00EBB2252028F2B600C1DD72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EBB2242028F2B600C1DD72 /* AppDelegate.swift */; };
 		00EBB2272028F2B600C1DD72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EBB2262028F2B600C1DD72 /* ViewController.swift */; };
 		00EBB22A2028F2B600C1DD72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EBB2282028F2B600C1DD72 /* Main.storyboard */; };
 		00EBB22C2028F2B600C1DD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EBB22B2028F2B600C1DD72 /* Assets.xcassets */; };
 		00EBB22F2028F2B600C1DD72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EBB22D2028F2B600C1DD72 /* LaunchScreen.storyboard */; };
+		00F66B4A2029455B00583CA6 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F66B472029455A00583CA6 /* 01.png */; };
+		00F66B4B2029455B00583CA6 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F66B482029455B00583CA6 /* 03.png */; };
+		00F66B4C2029455B00583CA6 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F66B492029455B00583CA6 /* 02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00422BC020293113004938FA /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		00422BC220293264004938FA /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		00422BC4202932F6004938FA /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		00EBB2212028F2B600C1DD72 /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00EBB2242028F2B600C1DD72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00EBB2262028F2B600C1DD72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		00EBB22B2028F2B600C1DD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00EBB22E2028F2B600C1DD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00EBB2302028F2B600C1DD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F66B472029455A00583CA6 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		00F66B482029455B00583CA6 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		00F66B492029455B00583CA6 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		00EBB2232028F2B600C1DD72 /* SuperSenha */ = {
 			isa = PBXGroup;
 			children = (
+				00F66B462029454D00583CA6 /* screenshot */,
 				00EBB2242028F2B600C1DD72 /* AppDelegate.swift */,
 				00EBB2262028F2B600C1DD72 /* ViewController.swift */,
 				00EBB2282028F2B600C1DD72 /* Main.storyboard */,
+				00422BC220293264004938FA /* SecurityTipsViewController.swift */,
+				00422BC020293113004938FA /* PasswordsViewController.swift */,
 				00EBB22B2028F2B600C1DD72 /* Assets.xcassets */,
 				00EBB22D2028F2B600C1DD72 /* LaunchScreen.storyboard */,
 				00EBB2302028F2B600C1DD72 /* Info.plist */,
+				00422BC4202932F6004938FA /* PasswordGenerator.swift */,
 			);
 			path = SuperSenha;
+			sourceTree = "<group>";
+		};
+		00F66B462029454D00583CA6 /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				00F66B472029455A00583CA6 /* 01.png */,
+				00F66B492029455B00583CA6 /* 02.png */,
+				00F66B482029455B00583CA6 /* 03.png */,
+			);
+			path = screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F66B4B2029455B00583CA6 /* 03.png in Resources */,
 				00EBB22F2028F2B600C1DD72 /* LaunchScreen.storyboard in Resources */,
 				00EBB22C2028F2B600C1DD72 /* Assets.xcassets in Resources */,
+				00F66B4A2029455B00583CA6 /* 01.png in Resources */,
 				00EBB22A2028F2B600C1DD72 /* Main.storyboard in Resources */,
+				00F66B4C2029455B00583CA6 /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00422BC320293264004938FA /* SecurityTipsViewController.swift in Sources */,
 				00EBB2272028F2B600C1DD72 /* ViewController.swift in Sources */,
+				00422BC120293113004938FA /* PasswordsViewController.swift in Sources */,
+				00422BC5202932F6004938FA /* PasswordGenerator.swift in Sources */,
 				00EBB2252028F2B600C1DD72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.guilhermebury.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.guilhermebury.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
